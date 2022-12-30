@@ -11,5 +11,16 @@
   "keywords": [
     "deodat",
     "david gourdet"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "deodat/deodat"
+  },
+  "author": {
+    "name": "David Gourdet",
+    "email": "hey@garnement.digital",
+    "url": "https://www.garnement.digital"
+  }
 }
