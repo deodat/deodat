@@ -15,7 +15,6 @@ welcome({
 })
 
 console.log(`
-
 David Gourdet - Garnement
 Creative frontend dev • Freelancer • Ex Nouvelle Vague
 ♥️  #GSAP #ThreeJS #WebGL #Shaders #Nuxt #Storyblok ♥️
