@@ -19,8 +19,8 @@ const githubColor = chalk.hex('#6cc644').bold.inverse;
 Golf addict • Co-creator coeurdegreen.fr`
     )}
 
-    ${githubColor(' GitHub ')}  ${dim(`https://github.com/deodat`)}
-    ${codepenColor(' Codepen ')} ${dim(`https://codepen.io/deodat`)}
+${githubColor(' GitHub ')}  ${dim(`https://github.com/deodat`)}
+${codepenColor(' Codepen ')} ${dim(`https://codepen.io/deodat`)}
   `);
 
   alert({ type: 'info', msg: `Check out my NodeCLI.com course.` });
