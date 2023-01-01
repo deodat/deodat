@@ -3,6 +3,8 @@
 const pkgJSON = require('./package.json')
 const welcome = require('cli-welcome');
 const chalk = require('chalk')
+const checkNode = require('cli-check-node')
+
 const log = console.log
 const italic = chalk.italic
 const dim = chalk.dim
@@ -17,7 +19,6 @@ const info = chalk.blue
 const warning = chalk.keyword('orange')
 const error = chalk.red.bold
 
-
 welcome({
   title: 'David Gourdet aka Deodat - Garnement',
   tagLine: `Howdy, nice to meet ya!`,
@@ -28,6 +29,8 @@ welcome({
   bold: true,
   clear: true
 })
+
+checkNode('14')
 
 log(`${italic(
   `Creative frontend dev • Freelancer • Ex Nouvelle Vague
